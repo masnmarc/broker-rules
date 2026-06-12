@@ -11,10 +11,10 @@ Current coverage:
 
 Rule counts:
 
-- `DOMAIN-SUFFIX`: 49
-- `DOMAIN`: 10
-- `IP-CIDR`: 18
-- `TOTAL`: 77
+- `DOMAIN-SUFFIX`: 51
+- `DOMAIN`: 9
+- `IP-CIDR`: 24
+- `TOTAL`: 84
 
 ## Structure
 
@@ -108,7 +108,7 @@ This ruleset fully incorporates the relevant brokerage entries from the followin
 - `blackmatrix7/ios_rule_script`
   - full `TigerFintech.list`
 
-On top of those upstream datasets, this repository adds official domains used by quote delivery, Level 2 data, OpenAPI, login flows, and support centers, plus a small set of observable entry IPs captured on `2026-05-30`.
+On top of those upstream datasets, this repository adds official domains used by quote delivery, Level 2 data, OpenAPI, login flows, and support centers, plus a small set of observable entry IPs captured on `2026-05-30` and refreshed on `2026-06-12` from a live traffic audit (Futu access-point probe fingerprinting cross-checked with ASN and DNS resolution).
 
 ## Acknowledgements
 
