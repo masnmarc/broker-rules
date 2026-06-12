@@ -1,11 +1,11 @@
 # NAME: Broker
 # AUTHOR: MsMc
 # REPO: https://github.com/masnmarc/broker-rules
-# UPDATED: 2026-05-30
-# HOST-SUFFIX: 49
-# HOST: 10
-# IP-CIDR: 18
-# TOTAL: 77
+# UPDATED: 2026-06-12
+# HOST-SUFFIX: 51
+# HOST: 9
+# IP-CIDR: 24
+# TOTAL: 84
 HOST-SUFFIX,futuhk.com,Broker
 HOST-SUFFIX,futu.link,Broker
 HOST-SUFFIX,futunn.com,Broker
@@ -30,6 +30,8 @@ HOST-SUFFIX,futuholdings.com,Broker
 HOST-SUFFIX,futuesop.com,Broker
 HOST-SUFFIX,futubull.cn,Broker
 HOST-SUFFIX,futuchain.com,Broker
+HOST-SUFFIX,fututrade.com,Broker
+HOST-SUFFIX,futustatic.com,Broker
 HOST-SUFFIX,moomoo.com,Broker
 HOST-SUFFIX,lbctrl.com,Broker
 HOST-SUFFIX,lbkrs.com,Broker
@@ -55,7 +57,6 @@ HOST-SUFFIX,schwab.com,Broker
 HOST-SUFFIX,schwab.com.cn,Broker
 HOST-SUFFIX,schwab.com.hk,Broker
 HOST-SUFFIX,schwab.co.uk,Broker
-HOST,cdn.futustatic.com,Broker
 HOST,quote.longbridge.global,Broker
 HOST,trade.longportapp.com,Broker
 HOST,openapi.longbridge.com,Broker
@@ -68,7 +69,13 @@ HOST,cg.play-analytics.com,Broker
 IP-CIDR,119.28.37.77/24,Broker,no-resolve
 IP-CIDR,43.153.233.212/24,Broker,no-resolve
 IP-CIDR,124.156.233.21/24,Broker,no-resolve
-IP-CIDR,170.106.49.68/24,Broker,no-resolve
+IP-CIDR,170.106.48.0/23,Broker,no-resolve
+IP-CIDR,170.106.201.0/24,Broker,no-resolve
+IP-CIDR,49.51.78.0/23,Broker,no-resolve
+IP-CIDR,42.193.128.0/24,Broker,no-resolve
+IP-CIDR,42.194.152.0/24,Broker,no-resolve
+IP-CIDR,1.15.158.0/24,Broker,no-resolve
+IP-CIDR,106.55.66.0/23,Broker,no-resolve
 IP-CIDR,119.91.245.125/24,Broker,no-resolve
 IP-CIDR,43.153.191.154/24,Broker,no-resolve
 IP-CIDR,101.32.198.91/24,Broker,no-resolve
@@ -82,4 +89,4 @@ IP-CIDR,47.57.180.81/32,Broker,no-resolve
 IP-CIDR,34.226.76.162/32,Broker,no-resolve
 IP-CIDR,54.172.233.156/32,Broker,no-resolve
 IP-CIDR,43.152.182.46/32,Broker,no-resolve
-IP-CIDR,119.28.218.206/32,Broker,no-resolve
+IP-CIDR,119.28.218.0/23,Broker,no-resolve
